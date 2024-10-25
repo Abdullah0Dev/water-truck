@@ -2,12 +2,63 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="https://i.pinimg.com/736x/10/2f/aa/102faa85bd243e31d6d3f6cb10463273.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+
+    <!-- Preload important resources -->
+    <link rel="preload" href="https://i.pinimg.com/736x/10/2f/aa/102faa85bd243e31d6d3f6cb10463273.jpg" as="logo" />
+    <link rel="preload" href="/assets/logo2.webp" as="brand logo" />  
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="طلب وايت ماء بأعلى جودة وبأسعار تنافسية. اطلب صهريج مياه في جدة ومكة مع شركة المياه الوطنية." />
+    <meta name="title" content="طلب وايت ماء | أفضل خدمات المياه في جدة ومكة" />
+    <meta name="keywords" content="طلب وايت ماء, سعر وايت ماء صغير, وايت تحليه, هاتف شركة المياه الوطنية, طلب صهريج, سعر وايت الماء ١٨ طن مكه, طلب صهريج مياه جدة, طلب صهريج ماء, وايت ماء جدة الخمرة, وايت مياه جدة, صهريج مياه, شركة المياه, طلب صهريج مياه, ارقام وايت ماء, طلب وايت, وايت ماء ٧ طن جدة, مويه تحليه وايت, وايت ماء شمال جدة, المياه الوطنية طلب صهريج, وايت مياه تحليه, المياه الوطنية, رقم المياه, كيف اطلب وايت مويه, تطبيق طلب وايت ماء, صهريج ماء, صهريج ماء جدة, وايت جدة, وايت مياه, وايت مياه جدة, وايت ماء جدة, شركة المياه الوطنية جدة, شركة المياه الوطنية تسجيل دخول, صهريج ماء جدة, وايت 7 طن للبيع, المياه الوطنيه, وايت ماء, وايت 13 طن جدة, وايت تحلية جدة, وايت مياه تحليه نقيه, شركة المياه الوطنية طلب صهريج, صهريج مياه جدة" />
+    <meta name="author" content="شركة المياه الوطنية" />
+     
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="طلب وايت ماء | أفضل خدمات المياه في جدة ومكة" />
+    <meta property="og:description" content="طلب وايت ماء بأعلى جودة وبأسعار تنافسية. اطلب صهريج مياه في جدة ومكة مع شركة المياه الوطنية." />
+    <meta property="og:image" content="https://i.pinimg.com/736x/10/2f/aa/102faa85bd243e31d6d3f6cb10463273.jpg" />
+    <meta property="og:url" content="https://wide-mayya.vercel.app/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="طلب وايت ماء | أفضل خدمات المياه في جدة ومكة" />
+    <meta name="twitter:description" content="طلب وايت ماء بأعلى جودة وبأسعار تنافسية. اطلب صهريج مياه في جدة ومكة مع شركة المياه الوطنية." />
+    <meta name="twitter:image" content="https://i.pinimg.com/736x/10/2f/aa/102faa85bd243e31d6d3f6cb10463273.jpg" />
+    <meta name="twitter:image:alt" content="شعار شركة المياه الوطنية" />
+    <meta name="twitter:creator" content="@شركة_المياه_الوطنية" />
+
+    <!-- Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet" />
+
+    <title>طلب وايت ماء | أفضل خدمات المياه في جدة ومكة</title>
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "شركة المياه الوطنية",
+        "description": "نقدم خدمة طلب وايت ماء وصهاريج مياه بجودة عالية وأسعار تنافسية في جدة ومكة.",
+        "url": "https://wide-mayya.vercel.app/",
+        "logo": "https://i.pinimg.com/736x/10/2f/aa/102faa85bd243e31d6d3f6cb10463273.jpg",
+        "sameAs": ["https://facebook.com/شركة_المياه_الوطنية", "https://twitter.com/شركة_المياه_الوطنية"],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "جدة",
+          "addressCountry": "السعودية"
+        }
+      }
+    </script>
+
+    <!-- Vite Script for React -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
